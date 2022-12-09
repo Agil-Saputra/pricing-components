@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js" type="module"></script>
+  </head>
+  <body>
+    <main>
+
+      <section class="title"><h1>Our Pricing</h1></section>
+
+      <section class="toggle">
+        <p>Annually</p>
+        <input type="checkbox" id="toggle" />
+        <p>Monthly</p>
+      </section>
+
+      <section class="card-container">
+        
+        <div class="card">
+          <p>Basic</p>
+          <h1 id="basic">&dollar;19.99</h1>
+          <ul>
+            <li class="top">500 GB Storage</li>
+            <li>2 Users Allowed</li>
+            <li>Send up to 3 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </div>
+
+        <div class="card special">
+          <p>Professional</p>
+          <h1 id="professional">&dollar;24.99</h1>
+          <ul>
+            <li class="top">1 TB Storage</li>
+            <li>5 Users Allowed</li>
+            <li>Send up to 10 GB</li>
+          </ul>
+          <button class="btn-special">Learn More</button>
+        </div>
+
+        <div class="card">
+          <p>Master</p>
+          <h1 id="master">&dollar;39.99</h1>
+          <ul>
+            <li class="top">2 TB Storage</li>
+            <li>10 Users Allowed</li>
+            <li>Send up to 20 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </div>
+
+      </section>
+    </main>
+  </body>
+</html>
